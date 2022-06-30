@@ -26,7 +26,7 @@ export default function App() {
   const submitHandler = (text) => {
     if (text.length > 3){
       // eslint-disable-next-line no-undef
-      setText('');
+      // setText('');
       setTodos(prevTodos => {
         return [
           { text, key: Math.random().toString() },
